@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Päevapakkumiste dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css?v=3">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Isiklik lõunavaade</p>
+          <h1>Päevapakkumised</h1>
+        </div>
+        <div class="status" id="status">Laen...</div>
+      </header>
+
+      <section class="toolbar" aria-label="Juhtimine">
+        <button id="refresh" type="button">Värskenda</button>
+        <span id="updated">-</span>
+      </section>
+
+      <section id="dashboard" class="dashboard" aria-live="polite"></section>
+    </main>
+
+    <footer>
+      <span>© Aleksander Laasmägi 2026</span>
+      <span class="sep">—</span>
+      <a href="https://alaasmagi.dev" target="_blank" rel="noreferrer">view portfolio</a>
+      <span class="sep">—</span>
+      <a href="https://github.com/alaasmagi/food-dashboard" target="_blank" rel="noreferrer">source code</a>
+    </footer>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

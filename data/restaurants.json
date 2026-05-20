@@ -1,0 +1,55 @@
+{
+  "environments": [
+    {
+      "id": "work",
+      "name": "Töö",
+      "description": "Kiire lõuna töö juures",
+      "restaurants": [
+        {
+          "name": "Al Mare Grill",
+          "city": "tallinn",
+          "slug": "al-mare-grill"
+        },
+        {
+          "name": "Veska Grill & Kohvik",
+          "city": "tallinn",
+          "slug": "veska-grill-&-kohvik"
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "name": "Kool",
+      "description": "Koolile lähedal",
+      "restaurants": [
+        {
+          "name": "Tommi Grill",
+          "city": "tallinn",
+          "slug": "tommi-grill"
+        },
+        {
+          "name": "SÜSI Grill & Chill",
+          "city": "tallinn",
+          "slug": "süsi-grill-&-chill"
+        }
+      ]
+    },
+    {
+      "id": "home",
+      "name": "Kodu",
+      "description": "Siis kui ei viitsi ise süüa teha",
+      "restaurants": [
+        {
+          "name": "Al Mare Grill",
+          "city": "tallinn",
+          "slug": "al-mare-grill"
+        },
+        {
+          "name": "RING kohvik",
+          "city": "tallinn",
+          "slug": "ring-kohvik"
+        }
+      ]
+    }
+  ]
+}
