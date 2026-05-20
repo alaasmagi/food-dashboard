@@ -11,9 +11,19 @@
           "slug": "al-mare-grill"
         },
         {
-          "name": "Veska Grill & Kohvik",
+          "name": "Reval Café Rocca al Mare",
           "city": "tallinn",
-          "slug": "veska-grill-&-kohvik"
+          "slug": "reval-caf%C3%A9-rocca-al-mare"
+        },
+        {
+          "name": "Tommi grill Rocca al Mare",
+          "city": "tallinn",
+          "slug": "tommi-grill-rocca-al-mare"
+        },
+        {
+          "name": "RING kohvik",
+          "city": "tallinn",
+          "slug": "ring-kohvik"
         }
       ]
     },
@@ -23,14 +33,89 @@
       "description": "Koolile lähedal",
       "restaurants": [
         {
-          "name": "Tommi Grill",
+          "name": "Plus Kohvik Taltech SOC",
           "city": "tallinn",
-          "slug": "tommi-grill"
+          "slug": "plus-kohvik-taltech-soc"
         },
         {
-          "name": "SÜSI Grill & Chill",
+          "name": "Kohvik Prõks",
           "city": "tallinn",
-          "slug": "süsi-grill-&-chill"
+          "slug": "kohvik-pr%C3%B5ks"
+        },
+        {
+          "name": "U06 kohvik",
+          "city": "tallinn",
+          "slug": "u06-kohvik"
+        },
+        {
+          "name": "IT Kolledži kohvik",
+          "city": "tallinn",
+          "slug": "it-kolled%C5%BEi-kohvik"
+        },
+        {
+          "name": "Lõunarestoran Mets ICT",
+          "city": "tallinn",
+          "slug": "l%C3%B5unarestoran-mets-ict"
+        },
+        {
+          "name": "Pannkoogimaja Tehnopol",
+          "city": "tallinn",
+          "slug": "pannkoogimaja-tehnopol"
+        },
+        {
+          "name": "Lõunarestoran Mets Mäealuse",
+          "city": "tallinn",
+          "slug": "%C3%B5unarestoran-mets-m%C3%A4ealuse"
+        },
+        {
+          "name": "Helios Kohvik",
+          "city": "tallinn",
+          "slug": "helios-kohvik"
+        },
+        {
+          "name": "Herne kohvik",
+          "city": "tallinn",
+          "slug": "herne-kohvik"
+        },
+        {
+          "name": "Pipraveski kohvik",
+          "city": "tallinn",
+          "slug": "pipraveski-kohvik"
+        },
+        {
+          "name": "Baklažaan",
+          "city": "tallinn",
+          "slug": "bakla%C5%BEaan"
+        },
+        {
+          "name": "Kohvik Katty Köök",
+          "city": "tallinn",
+          "slug": "kohvik-katty-k%C3%B6%C3%B6k"
+        },
+        {
+          "name": "Kius",
+          "city": "tallinn",
+          "slug": "kius"
+        },
+        {
+          "name": "Sinu bistroo",
+          "city": "tallinn",
+          "slug": "sinu-bistroo"
+        },
+        {
+          "name": "Viktus & Mia Pagar",
+          "city": "tallinn",
+          "slug": "viktus-&-mia-pagar"
+        },
+        {
+          "name": "ELSA Nõmme Jaamarestoran",
+          "city": "tallinn",
+          "slug": "elsa-n%C3%B5mme-jaamarestoran"
+        },
+        {
+          "name": "Hiiu Pubi",
+          "city": "tallinn",
+          "slug": "hiiu-pubi"
         }
       ]
     },
@@ -40,14 +125,39 @@
       "description": "Siis kui ei viitsi ise süüa teha",
       "restaurants": [
         {
-          "name": "Al Mare Grill",
+          "name": "Koidu 82 Resto",
           "city": "tallinn",
-          "slug": "al-mare-grill"
+          "slug": "koidu-82-resto"
         },
         {
-          "name": "RING kohvik",
+          "name": "Amps Arena",
           "city": "tallinn",
-          "slug": "ring-kohvik"
+          "slug": "amps-arena"
+        },
+        {
+          "name": "Viktus Kotka",
+          "city": "tallinn",
+          "slug": "viktus-kotka"
+        },
+        {
+          "name": "Grenka Kohvik",
+          "city": "tallinn",
+          "slug": "grenka-kohvik"
+        },
+        {
+          "name": "Menu Bistroo",
+          "city": "tallinn",
+          "slug": "menu-bistroo"
+        },
+        {
+          "name": "La Cucina Restoran & Pizzeria Napoletana",
+          "city": "tallinn",
+          "slug": "la-cucina-restoran-&-pizzeria-napoletana"
+        },
+        {
+          "name": "Karicca Kohvik",
+          "city": "tallinn",
+          "slug": "karicca-kohvik"
         }
       ]
     }
