@@ -85,7 +85,7 @@ function spinWheel() {
   const restaurants = selectedEnvironment.restaurants;
   const selectedIndex = Math.floor(Math.random() * restaurants.length);
   const slice = (Math.PI * 2) / restaurants.length;
-  const targetAngle = (Math.PI * 1.5) - (selectedIndex * slice + slice / 2);
+  const targetAngle = -(selectedIndex * slice + slice / 2);
   const fullTurns = 6 + Math.floor(Math.random() * 3);
   const startRotation = rotation;
   const targetRotation = normalizeRotation(targetAngle) + Math.PI * 2 * fullTurns;
@@ -114,8 +114,16 @@ function spinWheel() {
     drawWheel();
     spinning = false;
     spinButton.disabled = false;
-    winnerEl.textContent = restaurants[selectedIndex].name;
+    winnerEl.textContent = restaurants[getWinnerIndexFromRotation()].name;
   });
+}
+
+function getWinnerIndexFromRotation() {
+  const restaurants = selectedEnvironment?.restaurants || [];
+  if (!restaurants.length) return 0;
+
+  const slice = (Math.PI * 2) / restaurants.length;
+  return Math.floor(normalizeRotation(-rotation) / slice) % restaurants.length;
 }
 
 function drawWheel() {
