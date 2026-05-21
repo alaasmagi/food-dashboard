@@ -111,7 +111,15 @@ footer {
   font-size: 11px;
 }
 
-button {
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button,
+.button-link {
   appearance: none;
   border: 1px solid var(--accent);
   border-radius: 4px;
@@ -123,10 +131,12 @@ button {
   letter-spacing: 0.13em;
   text-transform: uppercase;
   padding: 11px 16px;
+  text-decoration: none;
   transition: background 0.15s, border-color 0.15s, opacity 0.15s;
 }
 
-button:hover {
+button:hover,
+.button-link:hover {
   background: var(--accent-strong);
   border-color: var(--accent-strong);
 }
@@ -134,6 +144,16 @@ button:hover {
 button:disabled {
   cursor: wait;
   opacity: 0.45;
+}
+
+.button-link.secondary {
+  background: transparent;
+  color: var(--accent);
+}
+
+.button-link.secondary:hover {
+  background: var(--accent-dim);
+  color: var(--accent-strong);
 }
 
 .dashboard {
@@ -318,6 +338,120 @@ button:disabled {
   }
 }
 
+.decision-panel {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: linear-gradient(180deg, var(--panel-top), var(--panel));
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.18);
+  padding: 20px;
+}
+
+.environment-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.environment-choice {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--panel-soft);
+  border-color: rgba(139, 152, 163, 0.18);
+  color: var(--text);
+}
+
+.environment-choice:hover,
+.environment-choice.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+.environment-choice em {
+  color: var(--muted);
+  font-style: normal;
+}
+
+.wheel-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(240px, 340px);
+  gap: 24px;
+  align-items: center;
+}
+
+.wheel-stage {
+  position: relative;
+  width: min(100%, 640px);
+  aspect-ratio: 1;
+  justify-self: center;
+}
+
+#wheel {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--border-bright);
+  border-radius: 50%;
+  background: var(--bg);
+  box-shadow:
+    0 22px 64px rgba(0, 0, 0, 0.28),
+    inset 0 0 0 8px rgba(7, 9, 12, 0.34);
+}
+
+.wheel-pointer {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-top: 28px solid var(--text);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.32));
+  transform: translateX(-50%);
+}
+
+.decision-side {
+  display: grid;
+  gap: 18px;
+  align-content: center;
+}
+
+.decision-side h2 {
+  margin: 0;
+  color: var(--text);
+  font-size: 32px;
+  line-height: 1;
+}
+
+.decision-label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.winner {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: rgba(7, 9, 12, 0.24);
+  padding: 16px;
+}
+
+.winner-name {
+  color: var(--price);
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.12;
+  overflow-wrap: anywhere;
+}
+
 footer {
   border-top: 1px solid var(--border);
   padding-top: 20px;
@@ -354,6 +488,10 @@ footer a:hover {
     grid-template-columns: 1fr;
   }
 
+  .wheel-layout {
+    grid-template-columns: 1fr;
+  }
+
   .environment-header {
     min-height: 0;
   }
@@ -383,6 +521,18 @@ footer a:hover {
   .source,
   .price {
     white-space: normal;
+  }
+
+  .decision-panel {
+    padding: 14px;
+  }
+
+  .decision-side h2 {
+    font-size: 26px;
+  }
+
+  .winner-name {
+    font-size: 22px;
   }
 }
 

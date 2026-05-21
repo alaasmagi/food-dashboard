@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "check": "node --check server.js && node --check lib/dashboard.js && node --check lib/rate-limit.js && node --check api/menu.js && node --check api/restaurants.js && node --check api/health.js && node --check public/app.js"
+    "check": "node --check server.js && node --check lib/dashboard.js && node --check lib/rate-limit.js && node --check api/menu.js && node --check api/restaurants.js && node --check api/health.js && node --check public/app.js && node --check public/decide.js"
   },
   "engines": {
     "node": ">=20"

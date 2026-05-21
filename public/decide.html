@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Päevapakkumiste dashboard</title>
+    <title>Ei suuda otsustada</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,20 +14,40 @@
       <header class="topbar">
         <div>
           <p class="eyebrow">Isiklik lõunavaade</p>
-          <h1>Päevapakkumised</h1>
+          <h1>Ei suuda otsustada</h1>
         </div>
         <div class="status" id="status">Laen...</div>
       </header>
 
       <section class="toolbar" aria-label="Juhtimine">
         <div class="toolbar-actions">
-          <button id="refresh" type="button">Värskenda</button>
-          <a class="button-link secondary" href="/decide.html">Ei suuda otsustada</a>
+          <a class="button-link secondary" href="/">Tagasi</a>
         </div>
-        <span id="updated">-</span>
+        <span id="selectedEnvironment">-</span>
       </section>
 
-      <section id="dashboard" class="dashboard" aria-live="polite"></section>
+      <section class="decision-panel">
+        <div class="environment-picker" id="environmentPicker" aria-label="Environment"></div>
+
+        <div class="wheel-layout">
+          <div class="wheel-stage">
+            <div class="wheel-pointer" aria-hidden="true"></div>
+            <canvas id="wheel" width="720" height="720"></canvas>
+          </div>
+
+          <aside class="decision-side">
+            <div>
+              <p class="decision-label">Valikus</p>
+              <h2 id="wheelTitle">-</h2>
+            </div>
+            <button id="spin" type="button" disabled>Keeruta</button>
+            <div class="winner" id="winner" aria-live="polite">
+              <p class="decision-label">Tulemus</p>
+              <div class="winner-name">-</div>
+            </div>
+          </aside>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -38,6 +58,6 @@
       <a href="https://github.com/alaasmagi/food-dashboard" target="_blank" rel="noreferrer">source code</a>
     </footer>
 
-    <script src="/app.js" type="module"></script>
+    <script src="/decide.js" type="module"></script>
   </body>
 </html>
