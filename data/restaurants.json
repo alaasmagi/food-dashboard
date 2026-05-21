@@ -71,51 +71,6 @@
           "name": "Helios Kohvik",
           "city": "tallinn",
           "slug": "helios-kohvik"
-        },
-        {
-          "name": "Herne kohvik",
-          "city": "tallinn",
-          "slug": "herne-kohvik"
-        },
-        {
-          "name": "Pipraveski kohvik",
-          "city": "tallinn",
-          "slug": "pipraveski-kohvik"
-        },
-        {
-          "name": "Baklažaan",
-          "city": "tallinn",
-          "slug": "bakla%C5%BEaan"
-        },
-        {
-          "name": "Kohvik Katty Köök",
-          "city": "tallinn",
-          "slug": "kohvik-katty-k%C3%B6%C3%B6k"
-        },
-        {
-          "name": "Kius",
-          "city": "tallinn",
-          "slug": "kius"
-        },
-        {
-          "name": "Sinu bistroo",
-          "city": "tallinn",
-          "slug": "sinu-bistroo"
-        },
-        {
-          "name": "Viktus & Mia Pagar",
-          "city": "tallinn",
-          "slug": "viktus-&-mia-pagar"
-        },
-        {
-          "name": "ELSA Nõmme Jaamarestoran",
-          "city": "tallinn",
-          "slug": "elsa-n%C3%B5mme-jaamarestoran"
-        },
-        {
-          "name": "Hiiu Pubi",
-          "city": "tallinn",
-          "slug": "hiiu-pubi"
         }
       ]
     },
