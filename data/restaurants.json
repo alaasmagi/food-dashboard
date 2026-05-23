@@ -31,6 +31,41 @@
           "city": "tallinn",
           "slug": "ring-kohvik",
           "hasOffers": true,
+          "showOnWheel": false
+        },
+        {
+        "name": "Vapiano Rocca al Mare",
+        "city": "tallinn",
+        "slug": "vapiano-rocca-al-mare",
+        "hasOffers": false,
+        "showOnWheel": true
+        },
+        {
+          "name": "McDonald's Rocca al Mare",
+          "city": "tallinn",
+          "slug": "mcdonalds-rocca-al-mare",
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Hesburger Rocca al Mare",
+          "city": "tallinn",
+          "slug": "hesburger-rocca-al-mare",
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Chopsticks Rocca al Mare",
+          "city": "tallinn",
+          "slug": "chopsticks-rocca-al-mare",
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "KFC Rocca al Mare",
+          "city": "tallinn",
+          "slug": "kfc-rocca-al-mare",
+          "hasOffers": false,
           "showOnWheel": true
         }
       ]
