@@ -41,7 +41,9 @@ Muuda faili `data/restaurants.json`.
 {
   "name": "Al Mare Grill",
   "city": "tallinn",
-  "slug": "al-mare-grill"
+  "slug": "al-mare-grill",
+  "hasOffers": true,
+  "showOnWheel": true
 }
 ```
 
@@ -50,6 +52,8 @@ Muuda faili `data/restaurants.json`.
 ```text
 https://xn--pevapakkumised-5hb.ee/tallinn/al-mare-grill
 ```
+
+`hasOffers: true` tähendab, et restorani pakkumised kuvatakse dashboardil ja neid fetchitakse allikast. `showOnWheel: true` tähendab, et restoran on valikus loosiratta lehel.
 
 ## Keskkonnamuutujad
 

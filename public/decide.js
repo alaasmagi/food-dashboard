@@ -35,7 +35,10 @@ async function loadEnvironments() {
     }
 
     const data = await response.json();
-    environments = data.environments || [];
+    environments = (data.environments || []).map((environment) => ({
+      ...environment,
+      restaurants: (environment.restaurants || []).filter((restaurant) => restaurant.showOnWheel === true)
+    }));
     renderEnvironmentPicker();
     statusEl.textContent = "Valmis";
   } catch (error) {

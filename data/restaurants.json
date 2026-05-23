@@ -8,22 +8,30 @@
         {
           "name": "Al Mare Grill",
           "city": "tallinn",
-          "slug": "al-mare-grill"
+          "slug": "al-mare-grill",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Reval Café Rocca al Mare",
           "city": "tallinn",
-          "slug": "reval-caf%C3%A9-rocca-al-mare"
+          "slug": "reval-caf%C3%A9-rocca-al-mare",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Tommi grill Rocca al Mare",
           "city": "tallinn",
-          "slug": "tommi-grill-rocca-al-mare"
+          "slug": "tommi-grill-rocca-al-mare",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "RING kohvik",
           "city": "tallinn",
-          "slug": "ring-kohvik"
+          "slug": "ring-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         }
       ]
     },
@@ -35,87 +43,121 @@
         {
           "name": "Plus Kohvik Taltech SOC",
           "city": "tallinn",
-          "slug": "plus-kohvik-taltech-soc"
+          "slug": "plus-kohvik-taltech-soc",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Kohvik Prõks",
           "city": "tallinn",
-          "slug": "kohvik-pr%C3%B5ks"
+          "slug": "kohvik-pr%C3%B5ks",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "U06 kohvik",
           "city": "tallinn",
-          "slug": "u06-kohvik"
+          "slug": "u06-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "IT Kolledži kohvik",
           "city": "tallinn",
-          "slug": "it-kolled%C5%BEi-kohvik"
+          "slug": "it-kolled%C5%BEi-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Lõunarestoran Mets ICT",
           "city": "tallinn",
-          "slug": "l%C3%B5unarestoran-mets-ict"
+          "slug": "l%C3%B5unarestoran-mets-ict",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Pannkoogimaja Tehnopol",
           "city": "tallinn",
-          "slug": "pannkoogimaja-tehnopol"
+          "slug": "pannkoogimaja-tehnopol",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Lõunarestoran Mets Mäealuse",
           "city": "tallinn",
-          "slug": "l%C3%B5unarestoran-mets-m%C3%A4ealuse"
+          "slug": "l%C3%B5unarestoran-mets-m%C3%A4ealuse",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Helios Kohvik",
           "city": "tallinn",
-          "slug": "helios-kohvik"
+          "slug": "helios-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Herne kohvik",
           "city": "tallinn",
-          "slug": "herne-kohvik"
+          "slug": "herne-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Pipraveski kohvik",
           "city": "tallinn",
-          "slug": "pipraveski-kohvik"
+          "slug": "pipraveski-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Baklažaan",
           "city": "tallinn",
-          "slug": "bakla%C5%BEaan"
+          "slug": "bakla%C5%BEaan",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Kohvik Katty Köök",
           "city": "tallinn",
-          "slug": "kohvik-katty-k%C3%B6%C3%B6k"
+          "slug": "kohvik-katty-k%C3%B6%C3%B6k",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Kius",
           "city": "tallinn",
-          "slug": "kius"
+          "slug": "kius",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Sinu bistroo",
           "city": "tallinn",
-          "slug": "sinu-bistroo"
+          "slug": "sinu-bistroo",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Viktus & Mia Pagar",
           "city": "tallinn",
-          "slug": "viktus-&-mia-pagar"
+          "slug": "viktus-&-mia-pagar",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "ELSA Nõmme Jaamarestoran",
           "city": "tallinn",
-          "slug": "elsa-n%C3%B5mme-jaamarestoran"
+          "slug": "elsa-n%C3%B5mme-jaamarestoran",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Hiiu Pubi",
           "city": "tallinn",
-          "slug": "hiiu-pubi"
+          "slug": "hiiu-pubi",
+          "hasOffers": true,
+          "showOnWheel": true
         }
       ]
     },
@@ -127,37 +169,51 @@
         {
           "name": "Koidu 82 Resto",
           "city": "tallinn",
-          "slug": "koidu-82-resto"
+          "slug": "koidu-82-resto",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Amps Arena",
           "city": "tallinn",
-          "slug": "amps-arena"
+          "slug": "amps-arena",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Viktus Kotka",
           "city": "tallinn",
-          "slug": "viktus-kotka"
+          "slug": "viktus-kotka",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Grenka Kohvik",
           "city": "tallinn",
-          "slug": "grenka-kohvik"
+          "slug": "grenka-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Menu Bistroo",
           "city": "tallinn",
-          "slug": "menu-bistroo"
+          "slug": "menu-bistroo",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "La Cucina Restoran & Pizzeria Napoletana",
           "city": "tallinn",
-          "slug": "la-cucina-restoran-&-pizzeria-napoletana"
+          "slug": "la-cucina-restoran-&-pizzeria-napoletana",
+          "hasOffers": true,
+          "showOnWheel": true
         },
         {
           "name": "Karicca Kohvik",
           "city": "tallinn",
-          "slug": "karicca-kohvik"
+          "slug": "karicca-kohvik",
+          "hasOffers": true,
+          "showOnWheel": true
         }
       ]
     }

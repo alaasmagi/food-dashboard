@@ -2,7 +2,7 @@ import { createServer } from "node:http";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { getDashboard, readRestaurantConfig } from "./lib/dashboard.js";
+import { getDashboard, getWheelConfig } from "./lib/dashboard.js";
 import { applyRateLimitHeaders, checkRateLimit } from "./lib/rate-limit.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -42,7 +42,7 @@ const server = createServer(async (req, res) => {
       if (!rateLimit.allowed) {
         return sendJson(res, { error: "Liiga palju päringuid. Proovi hetke pärast uuesti." }, 429);
       }
-      return sendJson(res, await readRestaurantConfig());
+      return sendJson(res, await getWheelConfig());
     }
 
     if (url.pathname === "/health") {

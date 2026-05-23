@@ -1,4 +1,4 @@
-import { readRestaurantConfig } from "../lib/dashboard.js";
+import { getWheelConfig } from "../lib/dashboard.js";
 import { applyRateLimitHeaders, checkRateLimit } from "../lib/rate-limit.js";
 
 export default async function handler(req, res) {
@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
   try {
     res.setHeader("Cache-Control", "no-store");
-    return res.status(200).json(await readRestaurantConfig());
+    return res.status(200).json(await getWheelConfig());
   } catch (error) {
     console.error(error);
     return res.status(500).json({ error: "Serveri viga", detail: error.message });
