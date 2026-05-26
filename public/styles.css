@@ -427,6 +427,24 @@ button:disabled {
   line-height: 1;
 }
 
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent, #35e6b5);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
 .decision-label {
   margin: 0 0 8px;
   color: var(--muted);

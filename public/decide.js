@@ -5,6 +5,7 @@ const canvas = document.querySelector("#wheel");
 const spinButton = document.querySelector("#spin");
 const winnerEl = document.querySelector("#winner .winner-name");
 const wheelTitle = document.querySelector("#wheelTitle");
+const includeJunkFoodCheckbox = document.querySelector("#includeJunkFood");
 const ctx = canvas.getContext("2d");
 
 const COLORS = [
@@ -23,9 +24,30 @@ let selectedEnvironment = null;
 let rotation = 0;
 let spinning = false;
 
+function getFilteredRestaurantsFor(environment) {
+  const includeJunk = includeJunkFoodCheckbox.checked;
+  return (environment?.restaurants || []).filter(
+    (r) => includeJunk || !r.isJunkFood
+  );
+}
+
+function getFilteredRestaurants() {
+  return getFilteredRestaurantsFor(selectedEnvironment);
+}
+
 loadEnvironments();
 window.addEventListener("resize", () => drawWheel());
 spinButton.addEventListener("click", spinWheel);
+includeJunkFoodCheckbox.addEventListener("change", () => {
+  if (!selectedEnvironment) return;
+  const filtered = getFilteredRestaurants();
+  rotation = 0;
+  winnerEl.textContent = "-";
+  spinButton.disabled = filtered.length === 0;
+  selectedEnvironmentEl.textContent = `${selectedEnvironment.name} · ${filtered.length}`;
+  updateEnvironmentPickerCounts();
+  drawWheel();
+});
 
 async function loadEnvironments() {
   try {
@@ -51,7 +73,7 @@ function renderEnvironmentPicker() {
   environmentPicker.innerHTML = environments.map((environment) => `
     <button class="environment-choice" type="button" data-id="${escapeAttribute(environment.id)}">
       <span>${escapeHtml(environment.name)}</span>
-      <em>${environment.restaurants.length}</em>
+      <em>${getFilteredRestaurantsFor(environment).length}</em>
     </button>
   `).join("");
 
@@ -64,6 +86,15 @@ function renderEnvironmentPicker() {
   }
 }
 
+function updateEnvironmentPickerCounts() {
+  environmentPicker.querySelectorAll("button[data-id]").forEach((button) => {
+    const env = environments.find((e) => e.id === button.dataset.id);
+    if (env) {
+      button.querySelector("em").textContent = getFilteredRestaurantsFor(env).length;
+    }
+  });
+}
+
 function selectEnvironment(id) {
   selectedEnvironment = environments.find((environment) => environment.id === id);
   if (!selectedEnvironment) return;
@@ -71,9 +102,10 @@ function selectEnvironment(id) {
   rotation = 0;
   spinning = false;
   winnerEl.textContent = "-";
-  spinButton.disabled = selectedEnvironment.restaurants.length === 0;
+  const filtered = getFilteredRestaurants();
+  spinButton.disabled = filtered.length === 0;
   wheelTitle.textContent = selectedEnvironment.name;
-  selectedEnvironmentEl.textContent = `${selectedEnvironment.name} · ${selectedEnvironment.restaurants.length}`;
+  selectedEnvironmentEl.textContent = `${selectedEnvironment.name} · ${filtered.length}`;
 
   environmentPicker.querySelectorAll("button").forEach((button) => {
     button.classList.toggle("active", button.dataset.id === id);
@@ -83,9 +115,9 @@ function selectEnvironment(id) {
 }
 
 function spinWheel() {
-  if (!selectedEnvironment || spinning || !selectedEnvironment.restaurants.length) return;
-
-  const restaurants = selectedEnvironment.restaurants;
+  if (!selectedEnvironment || spinning) return;
+  const restaurants = getFilteredRestaurants();
+  if (!restaurants.length) return;
   const selectedIndex = Math.floor(Math.random() * restaurants.length);
   const slice = (Math.PI * 2) / restaurants.length;
   const targetAngle = -(selectedIndex * slice + slice / 2);
@@ -122,7 +154,7 @@ function spinWheel() {
 }
 
 function getWinnerIndexFromRotation() {
-  const restaurants = selectedEnvironment?.restaurants || [];
+  const restaurants = getFilteredRestaurants();
   if (!restaurants.length) return 0;
 
   const slice = (Math.PI * 2) / restaurants.length;
@@ -130,7 +162,7 @@ function getWinnerIndexFromRotation() {
 }
 
 function drawWheel() {
-  const restaurants = selectedEnvironment?.restaurants || [];
+  const restaurants = getFilteredRestaurants();
   const rect = canvas.getBoundingClientRect();
   const size = Math.max(280, Math.floor(rect.width || 720));
   const ratio = window.devicePixelRatio || 1;

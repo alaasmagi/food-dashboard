@@ -9,6 +9,7 @@
           "name": "Al Mare Grill",
           "city": "tallinn",
           "slug": "al-mare-grill",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -16,6 +17,7 @@
           "name": "Reval Café Rocca al Mare",
           "city": "tallinn",
           "slug": "reval-caf%C3%A9-rocca-al-mare",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -23,13 +25,23 @@
           "name": "Tommi grill Rocca al Mare",
           "city": "tallinn",
           "slug": "tommi-grill-rocca-al-mare",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
+        },
+        {
+          "name": "Veska Grill & Kohvik",
+          "city": "tallinn",
+          "slug": "veska-grill-&-kohvik",
+          "isJunkFood": false,
+          "hasOffers": true,
+          "showOnWheel": false
         },
         {
           "name": "RING kohvik",
           "city": "tallinn",
           "slug": "ring-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": false
         },
@@ -37,6 +49,7 @@
         "name": "Vapiano Rocca al Mare",
         "city": "tallinn",
         "slug": "vapiano-rocca-al-mare",
+        "isJunkFood": false,
         "hasOffers": false,
         "showOnWheel": true
         },
@@ -44,6 +57,7 @@
           "name": "McDonald's Rocca al Mare",
           "city": "tallinn",
           "slug": "mcdonalds-rocca-al-mare",
+          "isJunkFood": true,
           "hasOffers": false,
           "showOnWheel": true
         },
@@ -51,6 +65,7 @@
           "name": "Hesburger Rocca al Mare",
           "city": "tallinn",
           "slug": "hesburger-rocca-al-mare",
+          "isJunkFood": true,
           "hasOffers": false,
           "showOnWheel": true
         },
@@ -58,6 +73,7 @@
           "name": "Chopsticks Rocca al Mare",
           "city": "tallinn",
           "slug": "chopsticks-rocca-al-mare",
+          "isJunkFood": false,
           "hasOffers": false,
           "showOnWheel": true
         },
@@ -65,6 +81,55 @@
           "name": "KFC Rocca al Mare",
           "city": "tallinn",
           "slug": "kfc-rocca-al-mare",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Da Vinci pasta & pizza Rocca al Mare",
+          "city": "tallinn",
+          "slug": "da-vinci-rocca-al-mare",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "MyDöner Rocca al Mare",
+          "city": "tallinn",
+          "slug": "my-doner-rocca-al-mare",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "MySushi Rocca al Mare",
+          "city": "tallinn",
+          "slug": "my-sushi-rocca-al-mare",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Burger King Rocca al Mare",
+          "city": "tallinn",
+          "slug": "burger-king-rocca-al-mare",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "REPA & PELM Rocca al Mare",
+          "city": "tallinn",
+          "slug": "repa-pelm-rocca-al-mare",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "54 Gurmee Rocca al Mare",
+          "city": "tallinn",
+          "slug": "54-gurmee-rocca-al-mare",
+          "isJunkFood": false,
           "hasOffers": false,
           "showOnWheel": true
         }
@@ -79,6 +144,7 @@
           "name": "Plus Kohvik Taltech SOC",
           "city": "tallinn",
           "slug": "plus-kohvik-taltech-soc",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -86,6 +152,7 @@
           "name": "Kohvik Prõks",
           "city": "tallinn",
           "slug": "kohvik-pr%C3%B5ks",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -93,6 +160,7 @@
           "name": "U06 kohvik",
           "city": "tallinn",
           "slug": "u06-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -100,6 +168,7 @@
           "name": "IT Kolledži kohvik",
           "city": "tallinn",
           "slug": "it-kolled%C5%BEi-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -107,6 +176,7 @@
           "name": "Lõunarestoran Mets ICT",
           "city": "tallinn",
           "slug": "l%C3%B5unarestoran-mets-ict",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -114,6 +184,7 @@
           "name": "Pannkoogimaja Tehnopol",
           "city": "tallinn",
           "slug": "pannkoogimaja-tehnopol",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -121,6 +192,7 @@
           "name": "Lõunarestoran Mets Mäealuse",
           "city": "tallinn",
           "slug": "l%C3%B5unarestoran-mets-m%C3%A4ealuse",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -128,6 +200,7 @@
           "name": "Helios Kohvik",
           "city": "tallinn",
           "slug": "helios-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -135,63 +208,240 @@
           "name": "Herne kohvik",
           "city": "tallinn",
           "slug": "herne-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Pipraveski kohvik",
           "city": "tallinn",
           "slug": "pipraveski-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Baklažaan",
           "city": "tallinn",
           "slug": "bakla%C5%BEaan",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Kohvik Katty Köök",
           "city": "tallinn",
           "slug": "kohvik-katty-k%C3%B6%C3%B6k",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Kius",
           "city": "tallinn",
           "slug": "kius",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Sinu bistroo",
           "city": "tallinn",
           "slug": "sinu-bistroo",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Viktus & Mia Pagar",
           "city": "tallinn",
           "slug": "viktus-&-mia-pagar",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "ELSA Nõmme Jaamarestoran",
           "city": "tallinn",
           "slug": "elsa-n%C3%B5mme-jaamarestoran",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Hiiu Pubi",
           "city": "tallinn",
           "slug": "hiiu-pubi",
+          "isJunkFood": false,
           "hasOffers": true,
+          "showOnWheel": false
+        },
+        {
+          "name": "Hesburger Magistrali",
+          "city": "tallinn",
+          "slug": "hesburger-magistrali",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "McDonald's Mustamäe",
+          "city": "tallinn",
+          "slug": "mcdonalds-mustamae",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Shaurma Kebab Mustamäe",
+          "city": "tallinn",
+          "slug": "shaurma-kebab-mustamae",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Dodo Pizza Mustamäe",
+          "city": "tallinn",
+          "slug": "dodo-pizza-mustamae",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Sushi 7 Mustamäe",
+          "city": "tallinn",
+          "slug": "sushi-7-magistrali",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Peetri Pizza Magistrali",
+          "city": "tallinn",
+          "slug": "peetri-pizza-magistrali",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "MySushi Magistrali",
+          "city": "tallinn",
+          "slug": "my-sushi-maghistrali",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Chopsticks Magistrali",
+          "city": "tallinn",
+          "slug": "chopsticks-magistrali",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Chopsticks Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "chopsticks-mustamae",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "LIDO Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "lido-mustamae-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Domino's Pizza Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "dominos-pizza-mustamae-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Viru Burger Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "viru-burger-mustamae-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Meze Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "meze-mustamae-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "MyDöner Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "my-doner-mustamae-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "New York Pizza Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "new-york-pizza-mustamae-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Toyosu Buffet Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "toyosu-buffet-mustamae-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Little India Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "little-india-mustamae-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Poke Bowl Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "poke-bowl-mustamae-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Gustav Cafe Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "gustav-cafe-mustamae-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "MySushi Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "my-sushi-mustamae-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Raasiku Beer & Kitchen Mustamäe Keskus",
+          "city": "tallinn",
+          "slug": "raasiku-beer-kitchen-mustamae-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
           "showOnWheel": true
         }
       ]
@@ -205,6 +455,7 @@
           "name": "Koidu 82 Resto",
           "city": "tallinn",
           "slug": "koidu-82-resto",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -212,6 +463,7 @@
           "name": "Amps Arena",
           "city": "tallinn",
           "slug": "amps-arena",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -219,13 +471,15 @@
           "name": "Viktus Kotka",
           "city": "tallinn",
           "slug": "viktus-kotka",
+          "isJunkFood": false,
           "hasOffers": true,
-          "showOnWheel": true
+          "showOnWheel": false
         },
         {
           "name": "Grenka Kohvik",
           "city": "tallinn",
           "slug": "grenka-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -233,6 +487,7 @@
           "name": "Menu Bistroo",
           "city": "tallinn",
           "slug": "menu-bistroo",
+          "isJunkFood": false,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -240,6 +495,7 @@
           "name": "La Cucina Restoran & Pizzeria Napoletana",
           "city": "tallinn",
           "slug": "la-cucina-restoran-&-pizzeria-napoletana",
+          "isJunkFood": true,
           "hasOffers": true,
           "showOnWheel": true
         },
@@ -247,7 +503,160 @@
           "name": "Karicca Kohvik",
           "city": "tallinn",
           "slug": "karicca-kohvik",
+          "isJunkFood": false,
           "hasOffers": true,
+          "showOnWheel": false
+        },
+        {
+          "name": "54 Gurmee Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "54-gurmee-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Chi Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "chi-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Chopsticks Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "chopsticks-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Da Vinci Pizza & Pasta Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "da-vinci-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Gustav Cafe Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "gustav-cafe-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Hesburger Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "hesburger-kristiine-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "HeseKebab Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "hesekebab-kristiine-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "KFC Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "kfc-kristiine-keskus",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "LIDO Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "lido-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "MySushi Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "my-sushi-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "O'Learys Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "olearys-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "PELM Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "pelm-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Poke Bowl & Meze Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "poke-bowl-meze-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Ristikheina Kohvik Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "ristikheina-kohvik-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Sunny Pocket Kristiine Keskus",
+          "city": "tallinn",
+          "slug": "sunny-pocket-kristiine-keskus",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "BurgerBros",
+          "city": "tallinn",
+          "slug": "burger-bros",
+          "isJunkFood": true,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Mandarin",
+          "city": "tallinn",
+          "slug": "mandarin",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Hikaru Sushi & Wine",
+          "city": "tallinn",
+          "slug": "hikaru-sushi-wine",
+          "isJunkFood": false,
+          "hasOffers": false,
+          "showOnWheel": true
+        },
+        {
+          "name": "Bopp Cafe",
+          "city": "tallinn",
+          "slug": "bopp-cafe",
+          "isJunkFood": false,
+          "hasOffers": false,
           "showOnWheel": true
         }
       ]
